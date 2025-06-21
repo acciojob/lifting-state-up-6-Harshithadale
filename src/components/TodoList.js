@@ -7,9 +7,8 @@ const TodoList = (props) => {
   }
   return (
     <>
-      <div>
-          <p>{props.todoItem} {display && <button onClick={handleComplete}> Complete</button>}</p>
-      </div>
+  
+          {props.todoItem} {display && <button onClick={handleComplete}> Complete</button>}
     </>
   )
 }

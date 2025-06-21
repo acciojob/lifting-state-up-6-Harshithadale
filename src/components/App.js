@@ -12,7 +12,7 @@ const App = () => {
         <h1>Parent Component</h1>
         <h2>Child Component</h2>
         {todoArray.map((item,ind)=>{
-           return<TodoList todoItem = {item} key={ind}/>
+           return <li><TodoList todoItem = {item} key={ind}/></li>
         })
         }
     </div> 
